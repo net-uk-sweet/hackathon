@@ -7,12 +7,7 @@ import Left from './Left';
 export default class Bottom extends React.Component {
   state = { screen: 0 };
 
-  componentWillMount() {
-    console.log('Bottom screen');
-  }
-
   handleLeftClick = () => {
-    console.log('left click');
     brokerChannel.send(JSON.stringify({ screen: 3 }));
   }
 

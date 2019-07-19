@@ -2,12 +2,20 @@ const WebSocket = require('ws')
 
 const wss = new WebSocket.Server({ port: 1337 })
 
-wss.on('connection', ws => {
-    ws.onconnection = () => console.log('app connected');
+console.log('ws serving from localhost:1337');
 
-  ws.on('message', message => {
-    console.log(message);
-    ws.send(message);
-  })
-  //ws.send('connected');
-})
+// Broadcast to all.
+wss.broadcast = function broadcast(data) {
+    wss.clients.forEach(function each(client) {
+        if (client.readyState == WebSocket.OPEN && data != undefined)
+            client.send(data);
+    });
+};
+
+wss.on('connection', ws => {
+    console.log('client connected');
+    ws.on('message', message => {
+        console.log('broadcasting message', message);
+        wss.broadcast(message);
+    });
+});

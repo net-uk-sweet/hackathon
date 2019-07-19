@@ -9,14 +9,9 @@ export default class Top extends React.Component {
     state = { screen: 0 };
 
     componentWillMount() {
-      brokerChannel.onmessage = (msg) => {
-        console.log('test', msg)
-        this.setState(JSON.parse(msg));
+      brokerChannel.onmessage = ({ data }) => {
+        this.setState(JSON.parse(data));
       }
-      console.log('Top screen', brokerChannel);
-      brokerChannel.onopen = function() {
-        console.log('channel open');
-      };
     }
   
     render() {
