@@ -43,7 +43,7 @@ export default class Left extends Component {
         </div>
       </div>
     );
-  }
+  };
 
   render() {
     return (
