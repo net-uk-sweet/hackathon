@@ -15,7 +15,7 @@ export default class Left extends Component {
     const ws = new WebSocket('ws://10.1.58.165:48009');
 
     ws.addEventListener('message', ({ data }) => {
-      console.log(data, JSON.PARSE(data));
+      console.log(data, JSON.parse(data));
       this.setState({ runners: JSON.PARSE(data), start: true });
     });
   }
