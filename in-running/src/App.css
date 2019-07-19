@@ -226,9 +226,14 @@ h1 span {
 
 .progress .bar {
   height: 100%;
-  width: 80%;
+  width: 0;
   background: #50ff00;
   background: -webkit-linear-gradient(left, #50ff00 0%, #ff0000 100%);
+  transition: width 120s linear; /*  THIS NEEDS TO BE THE VIDEO LENGTH  */
+}
+
+.progress .bar.active {
+  width: 100%;
 }
 
 .full-screen {

@@ -53,7 +53,7 @@ export default class Feed extends Component {
         )}
         <div style={{ position: 'relative' }}>
           <canvas id="video-canvas" style={videoStyle} />
-          <aside className={`popup-bet ${this.state.popup ? 'active' : ''}`}>
+          <aside className={`popup-bet ${this.state.popup ? 'active' : ''} `}>
             <div className="selections__selection-body">
               <img src="00000071.png" />
               <div style={{ flex: 1, padding: '0 20px' }}>
