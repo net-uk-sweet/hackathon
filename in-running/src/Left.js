@@ -102,30 +102,12 @@ export default () => {
       </aside>
 
       <aside className="upcoming">
-        <section>
-          <div className="upcoming__item">
-            <h2>4:00 Newbury</h2>
-            <p>5m going to really good and hard</p>
-            <p>8 runners</p>
-          </div>
-          <div className="upcoming__item">
-            <h2>5:25 Hull</h2>
-            <p>1m gone soft in places</p>
-            <p>8 runners</p>
-          </div>
-
-          <div className="upcoming__item">
-            <h2>6:00 Kent</h2>
-            <p>12m going easy</p>
-            <p>8 runners</p>
-          </div>
-
-          <div className="upcoming__item">
-            <h2>8:00 Sheffield</h2>
-            <p>8m starts hard but soft towards the end</p>
-            <p>8 runners</p>
-          </div>
-        </section>
+        <div className="upcoming__item">
+          <span>next off</span>
+          <h2>4:00 Newbury</h2>
+          <p>5m going to really good and hard</p>
+          <p>8 runners</p>
+        </div>
       </aside>
     </section>
   );
