@@ -5,10 +5,10 @@ import Feed from './FEED';
 import Left from './Left';
 
 export default class Bottom extends React.Component {
-    state = { fullScreen: false };
+    state = { screen: 0 };
   
     handleButtonClick = () => {
-      const state = { fullScreen: !this.state.fullScreen };
+      const state = { screen: this.state.screen ? 0 : 1 };
       this.setState(state);
       broadcastChannel.postMessage(state);
     }
