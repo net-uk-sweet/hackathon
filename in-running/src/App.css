@@ -111,6 +111,12 @@ h1 span {
   ); /* Chrome10-25,Safari5.1-6 */
 }
 
+.selections {
+  max-height: 450px;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+
 .selections-row {
   display: flex;
   flex-direction: row;

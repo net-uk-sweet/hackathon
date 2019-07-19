@@ -84,18 +84,56 @@ export default () => {
 
           <div className="selections__selection">
             <div className="selections__selection-header">
-              Rest of the Field
+              <span>9</span>CROSS COUNTER
             </div>
             <div className="selections__selection-body">
-              <img style={{ opacity: 0 }} src="00077033.png" />
-              <div style={{ flex: 1 }} style={{ opacity: 0 }}>
-                <p>j: Silvestre De Sousa</p>
-                <p>t: Mark Johnston</p>
+              <img src="00012133.png" />
+              <div style={{ flex: 1 }}>
+                <p>j: James Doyle</p>
+                <p>t: Charlie Appleby</p>
               </div>
               <div>89/7</div>
             </div>
             <div className="selections__selection-button">
               <button style={{ marginLeft: 0 }}>Place Bet</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="selections-row">
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              <span>41</span>FLAG OF HONOUR
+            </div>
+            <div className="selections__selection-body">
+              <img src="00049444.png" />
+              <div style={{ flex: 1 }}>
+                <p>j: Ryan Moore</p>
+                <p>t: Aidan O'Brien</p>
+              </div>
+              <div>10/4</div>
+            </div>
+            <div className="selections__selection-button">
+              <button>Bet For</button>
+              <button>Bet Against</button>
+            </div>
+          </div>
+
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              <span>11</span>CAPRI
+            </div>
+            <div className="selections__selection-body">
+              <img src="00050484.png" />
+              <div style={{ flex: 1 }}>
+                <p>j: Donnacha O'Brien</p>
+                <p>t: Aidan O'Brien</p>
+              </div>
+              <div>95/7</div>
+            </div>
+            <div className="selections__selection-button">
+              <button>Bet For</button>
+              <button>Bet Against</button>
             </div>
           </div>
         </div>
