@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => {
+export default (props) => {
   return (
     <section style={{ flex: 1, paddingRight: '40px' }}>
       <h1>
@@ -39,7 +39,7 @@ export default () => {
               <div>9/4</div>
             </div>
             <div className="selections__selection-button">
-              <button>Bet For</button>
+              <button onClick={props.onBetClick}>Bet For</button>
               <button>Bet Against</button>
             </div>
           </div>

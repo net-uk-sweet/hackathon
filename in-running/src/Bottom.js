@@ -11,6 +11,11 @@ export default class Bottom extends React.Component {
     console.log('Bottom screen');
   }
 
+  handleLeftClick = () => {
+    console.log('left click');
+    broadcastChannel.postMessage({ screen: 3 });
+  }
+
   handleButtonClick = () => {
     const state = { screen: this.state.screen ? 0 : 1 };
 
@@ -27,7 +32,7 @@ export default class Bottom extends React.Component {
           <nav></nav>
           <div>
             <aside>
-              <Left />
+              <Left onBetClick={this.handleLeftClick} />
               {screen === 0 && (<Feed onToggleClick={this.handleButtonClick} />)}
             </aside>
           </div>
