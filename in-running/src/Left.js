@@ -62,6 +62,46 @@ export default () => {
             </div>
           </div>
         </div>
+
+        <div className="selections-row">
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              <span>7</span>MASTER OF REALITY
+            </div>
+            <div className="selections__selection-body">
+              <img src="https://images.timeform.com/silks/opt/00000071.png" />
+              <div style={{ flex: 1 }}>
+                <p>j: W. M. Lordan</p>
+                <p>t: Joseph O'Brien</p>
+              </div>
+              <div>7/6</div>
+            </div>
+            <div className="selections__selection-button">
+              <button>Bet For</button>
+              <button>Bet Against</button>
+            </div>
+          </div>
+
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              Rest of the Field
+            </div>
+            <div className="selections__selection-body">
+              <img
+                style={{ opacity: 0 }}
+                src="https://images.timeform.com/silks/opt/00077033.png"
+              />
+              <div style={{ flex: 1 }} style={{ opacity: 0 }}>
+                <p>j: Silvestre De Sousa</p>
+                <p>t: Mark Johnston</p>
+              </div>
+              <div>89/7</div>
+            </div>
+            <div className="selections__selection-button">
+              <button style={{ marginLeft: 0 }}>Place Bet</button>
+            </div>
+          </div>
+        </div>
       </aside>
 
       <aside className="upcoming" />

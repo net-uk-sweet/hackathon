@@ -119,6 +119,7 @@ h1 span {
 .selections__selection {
   flex: 1;
   margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 .selections__selection + .selections__selection {
