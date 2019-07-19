@@ -31,7 +31,7 @@ export default () => {
               <span>4</span>STRADIVARIUS
             </div>
             <div className="selections__selection-body">
-              <img src="https://images.timeform.com/silks/opt/00000071.png" />
+              <img src="00000071.png" />
               <div style={{ flex: 1 }}>
                 <p>j: Frankie Dettori</p>
                 <p>t: John Gosden</p>
@@ -49,7 +49,7 @@ export default () => {
               <span>8</span>DEE EX BEE
             </div>
             <div className="selections__selection-body">
-              <img src="https://images.timeform.com/silks/opt/00077033.png" />
+              <img src="00077033.png" />
               <div style={{ flex: 1 }}>
                 <p>j: Silvestre De Sousa</p>
                 <p>t: Mark Johnston</p>
@@ -69,7 +69,7 @@ export default () => {
               <span>7</span>MASTER OF REALITY
             </div>
             <div className="selections__selection-body">
-              <img src="https://images.timeform.com/silks/opt/00000071.png" />
+              <img src="00000071.png" />
               <div style={{ flex: 1 }}>
                 <p>j: W. M. Lordan</p>
                 <p>t: Joseph O'Brien</p>
@@ -87,10 +87,7 @@ export default () => {
               Rest of the Field
             </div>
             <div className="selections__selection-body">
-              <img
-                style={{ opacity: 0 }}
-                src="https://images.timeform.com/silks/opt/00077033.png"
-              />
+              <img style={{ opacity: 0 }} src="00077033.png" />
               <div style={{ flex: 1 }} style={{ opacity: 0 }}>
                 <p>j: Silvestre De Sousa</p>
                 <p>t: Mark Johnston</p>

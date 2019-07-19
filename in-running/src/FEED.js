@@ -47,7 +47,7 @@ export default class Feed extends Component {
           <canvas id="video-canvas" style={videoStyle} />
           <aside className="popup-bet">
             <div className="selections__selection-body">
-              <img src="https://images.timeform.com/silks/opt/00000071.png" />
+              <img src="00000071.png" />
               <div style={{ flex: 1, padding: '0 20px' }}>
                 <p style={{ lineHeight: '40px' }}>STRADIVARIUS</p>
               </div>
