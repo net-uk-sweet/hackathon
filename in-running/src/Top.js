@@ -10,7 +10,10 @@ export default class Top extends React.Component {
 
     componentWillMount() {
       
-      broadcastChannel.onmessage = ({ data }) => this.setState(data);
+      broadcastChannel.onmessage = ({ data }) => {
+        console.log('onmessage', data);
+        this.setState(data);
+      }
     }
   
     render() {
