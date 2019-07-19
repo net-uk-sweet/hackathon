@@ -26,6 +26,8 @@ header + section {
 
 header {
   width: 100%;
+  max-width: 100%;
+  border: 0;
   height: 70px;
   background: #184b74;
 }
