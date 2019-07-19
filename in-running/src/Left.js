@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import jockies from './Jockeys';
 
 export default class Left extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       start: false,
