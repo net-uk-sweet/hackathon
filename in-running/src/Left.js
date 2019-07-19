@@ -137,6 +137,44 @@ export default () => {
             </div>
           </div>
         </div>
+
+        <div className="selections-row">
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              <span>17</span>RAYMOND TUSK
+            </div>
+            <div className="selections__selection-body">
+              <img src="00851719.png" />
+              <div style={{ flex: 1 }}>
+                <p>j: Jamie Spencer</p>
+                <p>t: Richard Hannon</p>
+              </div>
+              <div>10/4</div>
+            </div>
+            <div className="selections__selection-button">
+              <button>Bet For</button>
+              <button>Bet Against</button>
+            </div>
+          </div>
+
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              <span>2</span>CALLED TO THE BAR
+            </div>
+            <div className="selections__selection-body">
+              <img src="00857553.png" />
+              <div style={{ flex: 1 }}>
+                <p>j: Oisin Murphy</p>
+                <p>t: Mme Pia Brandt</p>
+              </div>
+              <div>32/9</div>
+            </div>
+            <div className="selections__selection-button">
+              <button>Bet For</button>
+              <button>Bet Against</button>
+            </div>
+          </div>
+        </div>
       </aside>
 
       <aside className="upcoming">
