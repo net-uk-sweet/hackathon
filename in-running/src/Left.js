@@ -32,10 +32,11 @@ export default () => {
             </div>
             <div className="selections__selection-body">
               <img src="https://images.timeform.com/silks/opt/00000071.png" />
-              <div>
-                <p>Frankie Dettori</p>
-                <p>John Gosden</p>
+              <div style={{ flex: 1 }}>
+                <p>j: Frankie Dettori</p>
+                <p>t: John Gosden</p>
               </div>
+              <div>9/4</div>
             </div>
             <div className="selections__selection-button">
               <button>Bet For</button>
@@ -48,11 +49,12 @@ export default () => {
               <span>8</span>DEE EX BEE
             </div>
             <div className="selections__selection-body">
-              <img src="https://images.timeform.com/silks/opt/00077033.pngx" />
-              <div>
-                <p>Silvestre De Sousa</p>
-                <p>Mark Johnston</p>
+              <img src="https://images.timeform.com/silks/opt/00077033.png" />
+              <div style={{ flex: 1 }}>
+                <p>j: Silvestre De Sousa</p>
+                <p>t: Mark Johnston</p>
               </div>
+              <div>9/4</div>
             </div>
             <div className="selections__selection-button">
               <button>Bet For</button>

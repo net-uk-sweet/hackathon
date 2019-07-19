@@ -150,15 +150,22 @@ h1 span {
 }
 
 .selections__selection-body {
-  height: 80px;
+  padding: 20px 0;
   background: #fff;
   border-right: 2px solid #cfdef5;
   border-left: 2px solid #cfdef5;
   display: flex;
 }
 
+.selections__selection-body div + div {
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
 .selections__selection-body img {
   height: 40px;
+  margin: 0 10px;
 }
 
 .selections__selection-header {
@@ -215,4 +222,8 @@ h1 span {
   top: 16px;
   right: 16px;
   z-index: 100;
+}
+
+.full-screen button {
+  margin-left: 0;
 }
