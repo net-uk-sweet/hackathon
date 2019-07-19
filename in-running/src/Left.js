@@ -15,9 +15,8 @@ export default class Left extends Component {
     const ws = new WebSocket('ws://10.1.58.165:48009');
 
     ws.addEventListener('message', ({ data }) => {
-      if (Array.isArray(data)) {
-        this.setState({ runners: data, start: true });
-      }
+      console.log(data, JSON.PARSE(data));
+      this.setState({ runners: JSON.PARSE(data), start: true });
     });
   }
 
@@ -25,7 +24,7 @@ export default class Left extends Component {
     const jocky = jockies.filter(j => j.id == data.selection_id)[0];
 
     return (
-      <div className="selections__selection">
+      <div className="selections__selection" key={data.selection_id}>
         <div className="selections__selection-header">
           <span>{data.selection_name.replace(/[a-z ]/gim, '')}</span>
           {data.selection_name.replace(/[0-9]/gim, '')}
