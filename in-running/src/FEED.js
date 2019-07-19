@@ -17,24 +17,39 @@ export default class Feed extends Component {
   }
 
   render() {
+    const { top } = this.props;
+
+    const videoStyle = top ? {
+      height: '100%',
+      width: '100%',
+      position: 'relative'
+    } : {
+      height: '500px',
+      width: '900px',
+      position: 'relative'
+    };
+
     return (
-      <section style={{flex: 1}}>
+      <section style={{flex: 1, position: 'relative'}}>
+        {!top && (
+          <div className='selections__selection-button full-screen'>
+            <button onClick={this.props.onToggleClick}>Full-screen</button>
+          </div>
+        )}
         <div style={{position: 'relative'}}>
-          <canvas id="video-canvas" style={{height: '500px', width: "900px", position: 'relative'}}></canvas>
+          <canvas id="video-canvas" style={videoStyle}></canvas>
           <aside className='popup-bet'>
 
 
             <div className='selections__selection-body'>
 
-              
-
-
-
 
             </div>
-            <div className='selections__selection-button'>
-              <button>Place Bet</button>
-            </div>
+            {!top && (
+              <div className='selections__selection-button'>
+                <button>Place Bet</button>
+              </div>
+            )}
           </aside>
         </div>
       </section>

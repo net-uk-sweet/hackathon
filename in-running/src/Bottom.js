@@ -9,6 +9,7 @@ export default class Bottom extends React.Component {
   
     handleButtonClick = () => {
       const state = { screen: this.state.screen ? 0 : 1 };
+      console.log('toggle', state);
       this.setState(state);
       broadcastChannel.postMessage(state);
     }
@@ -22,11 +23,10 @@ export default class Bottom extends React.Component {
             <div>
               <aside>
                 <Left />
-                <Feed />
+                <Feed onToggleClick={this.handleButtonClick} />
               </aside>
             </div>
           </section>
-          <button onClick={this.handleButtonClick}>Toggle full-screen</button>
         </main>
       )
     }
