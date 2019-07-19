@@ -1,5 +1,5 @@
 import React from 'react';
-import broadcastChannel from './broadcastChannel';
+import brokerChannel from './brokerChannel';
 
 import Form from './Form';
 import FullScreenVideo from './FullScreenVideo';
@@ -9,11 +9,14 @@ export default class Top extends React.Component {
     state = { screen: 0 };
 
     componentWillMount() {
-      console.log('Top screen');
-      broadcastChannel.onmessage = ({ data }) => {
-        console.log('onmessage', data);
-        this.setState(data);
+      brokerChannel.onmessage = (msg) => {
+        console.log('test', msg)
+        this.setState(JSON.parse(msg));
       }
+      console.log('Top screen', brokerChannel);
+      brokerChannel.onopen = function() {
+        console.log('channel open');
+      };
     }
   
     render() {
