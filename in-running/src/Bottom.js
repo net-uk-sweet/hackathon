@@ -6,13 +6,13 @@ import Left from './Left';
 
 export default class Bottom extends React.Component {
     state = { fullScreen: false };
-  
+
     handleButtonClick = () => {
       const state = { fullScreen: !this.state.fullScreen };
       this.setState(state);
       broadcastChannel.postMessage(state);
     }
-  
+
     render() {
       return (
         <main>
@@ -22,7 +22,6 @@ export default class Bottom extends React.Component {
             <div>
               <aside>
                 <Left />
-                <Feed />
               </aside>
             </div>
           </section>

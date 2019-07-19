@@ -1,13 +1,14 @@
 import React from 'react';
 
 export default () => {
-  return(
-    <section style={{flex: 1, paddingRight: '40px'}}>
-
-      <h1>3:15 Cheltenham <span>In-running</span></h1>
+  return (
+    <section style={{ flex: 1, paddingRight: '40px' }}>
+      <h1>
+        3:15 Cheltenham <span>In-running</span>
+      </h1>
       <p>Going: good (soft in places) - Distance: 4m</p>
 
-      <aside className='bets'>
+      <aside className="bets">
         <ul>
           <li>Your Stake:</li>
           <li>£1</li>
@@ -19,37 +20,45 @@ export default () => {
         </ul>
       </aside>
 
-      <aside className='selections'>
-
-
-        <div className='selections-row'>
-
-
-          <div className='selections__selection'>
-            <div className='selections__selection-header'></div>
-            <div className='selections__selection-body'></div>
-            <div className='selections__selection-button'>
-              <img alt="silk" src="https://images.timeform.com/silks/opt/00077033.png" />
-              <button>Place Bet</button>
+      <aside className="selections">
+        <div className="selections-row">
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              <span>4</span>STRADIVARIUS
+            </div>
+            <div className="selections__selection-body">
+              <img src="https://images.timeform.com/silks/opt/00000071.png" />
+              <div>
+                <p>Frankie Dettori</p>
+                <p>John Gosden</p>
+              </div>
+            </div>
+            <div className="selections__selection-button">
+              <button>Bet For</button>
+              <button>Bet Against</button>
             </div>
           </div>
 
-          <div className='selections__selection'>
-            <div className='selections__selection-header'></div>
-            <div className='selections__selection-body'></div>
-            <div className='selections__selection-button'>
-              <button>Place Bet</button>
+          <div className="selections__selection">
+            <div className="selections__selection-header">
+              <span>8</span>DEE EX BEE
+            </div>
+            <div className="selections__selection-body">
+              <img src="https://images.timeform.com/silks/opt/00077033.pngx" />
+              <div>
+                <p>Silvestre De Sousa</p>
+                <p>Mark Johnston</p>
+              </div>
+            </div>
+            <div className="selections__selection-button">
+              <button>Bet For</button>
+              <button>Bet Against</button>
             </div>
           </div>
-
         </div>
-
-
-
       </aside>
 
-      <aside className='upcoming'></aside>
-
+      <aside className="upcoming" />
     </section>
   );
-}
+};
