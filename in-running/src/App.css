@@ -229,3 +229,17 @@ h1 span {
 .full-screen button {
   margin-left: 0;
 }
+
+.upcoming {
+  width: 100%;
+  overflow: scroll;
+}
+
+.upcoming section {
+  width: 10000px;
+}
+
+.upcoming__item {
+  width: 300px;
+  border: 1px solid grey;
+}
