@@ -19,6 +19,14 @@ export default class Feed extends Component {
     ws.addEventListener('message', ({ data }) => {
       console.log(data);
     });
+
+    setTimeout(() => {
+      this.setState({ popup: true });
+    }, 8000);
+
+    setTimeout(() => {
+      this.setState({ popup: false });
+    }, 25000);
   }
 
   render() {
@@ -45,7 +53,7 @@ export default class Feed extends Component {
         )}
         <div style={{ position: 'relative' }}>
           <canvas id="video-canvas" style={videoStyle} />
-          <aside className="popup-bet">
+          <aside className={`popup-bet ${this.state.popup ? 'active' : ''}`}>
             <div className="selections__selection-body">
               <img src="00000071.png" />
               <div style={{ flex: 1, padding: '0 20px' }}>
