@@ -7,6 +7,10 @@ import Left from './Left';
 export default class Bottom extends React.Component {
   state = { screen: 0 };
 
+  componentWillMount() {
+    console.log('Bottom screen');
+  }
+
   handleButtonClick = () => {
     const state = { screen: this.state.screen ? 0 : 1 };
 

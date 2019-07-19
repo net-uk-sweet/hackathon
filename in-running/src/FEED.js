@@ -10,7 +10,7 @@ export default class Feed extends Component {
     const ws = new WebSocket('ws://10.1.58.165:48009');
 
     ws.addEventListener('message', ({data}) => {
-      console.log(data);
+      // console.log(data);
 
 
     });
