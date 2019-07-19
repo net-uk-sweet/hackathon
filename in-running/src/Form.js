@@ -17,7 +17,7 @@ export default () => (
           <tr className="rp-saddle-1">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00857553.png" alt="jockey silks" />
+              <img src="00857553.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/called-to-the-bar?horseCode=000000444504" className="horse-name">CALLED TO THE BAR (IRE)</a>
@@ -68,7 +68,7 @@ export default () => (
           <tr className="rp-saddle-2">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00050484.png" alt="jockey silks" />
+              <img src="00050484.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/capri?horseCode=000000440725" className="horse-name">CAPRI (IRE)</a>
@@ -118,7 +118,7 @@ export default () => (
           <tr className="rp-saddle-3">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00060078.png" alt="jockey silks" />
+              <img src="00060078.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/magic-circle?horseCode=000000371033" className="horse-name">MAGIC CIRCLE (IRE)</a>
@@ -169,7 +169,7 @@ export default () => (
           <tr className="rp-saddle-4">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00000071.png" alt="jockey silks" />
+              <img src="00000071.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/stradivarius?horseCode=000000444612" className="horse-name">STRADIVARIUS (IRE)</a>
@@ -222,7 +222,7 @@ export default () => (
           <tr className="rp-saddle-5">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00059004.png" alt="jockey silks" />
+              <img src="00059004.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/thomas-hobson?horseCode=000000338530" className="horse-name">THOMAS HOBSON</a>
@@ -273,7 +273,7 @@ export default () => (
           <tr className="rp-saddle-6">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00012133.png" alt="jockey silks" />
+              <img src="00012133.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/cross-counter?horseCode=000000472615" className="horse-name">CROSS COUNTER</a>
@@ -325,7 +325,7 @@ export default () => (
           <tr className="rp-saddle-7">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00049445.png" alt="jockey silks" />
+              <img src="00049445.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/cypress-creek?horseCode=000000465133" className="horse-name">CYPRESS CREEK (IRE)</a>
@@ -375,7 +375,7 @@ export default () => (
           <tr className="rp-saddle-8">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00077033.png" alt="jockey silks" />
+              <img src="00077033.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/dee-ex-bee?horseCode=000000461351" className="horse-name">DEE EX BEE</a>
@@ -427,7 +427,7 @@ export default () => (
           <tr className="rp-saddle-9">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00049444.png" alt="jockey silks" />
+              <img src="00049444.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/flag-of-honour?horseCode=000000466978" className="horse-name">FLAG OF HONOUR (IRE)</a>
@@ -478,7 +478,7 @@ export default () => (
           <tr className="rp-saddle-10">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00857758.png" alt="jockey silks" />
+              <img src="00857758.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/master-of-reality?horseCode=000000478449" className="horse-name">MASTER OF REALITY (IRE)</a>
@@ -528,7 +528,7 @@ export default () => (
           <tr className="rp-saddle-11">
             <td className="form-figure" />
             <td className="silks-img" rowSpan={2}>
-              <img src="https://images.timeform.com/silks/00851719.png" alt="jockey silks" />
+              <img src="00851719.png" alt="jockey silks" />
             </td>
             <td className="horse-column">
               <a target="_blank" href="/royal-ascot/horse-career/raymond-tusk?horseCode=000000478183" className="horse-name">RAYMOND TUSK (IRE)</a>
