@@ -9,7 +9,7 @@ export default class Top extends React.Component {
     state = { screen: 0 };
 
     componentWillMount() {
-      
+      console.log('Top screen');
       broadcastChannel.onmessage = ({ data }) => {
         console.log('onmessage', data);
         this.setState(data);
