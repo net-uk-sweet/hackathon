@@ -16,11 +16,11 @@ export default class Left extends Component {
 
     ws.addEventListener('message', ({ data }) => {
       console.log(data, JSON.parse(data));
-      this.setState({ runners: JSON.PARSE(data), start: true });
+      this.setState({ runners: JSON.parse(data), start: true });
     });
   }
 
-  renderRunner(data, index) {
+  renderRunner = (data, index) => {
     const jocky = jockies.filter(j => j.id == data.selection_id)[0];
 
     return (
@@ -38,12 +38,12 @@ export default class Left extends Component {
           <div>{data.for_side_price_1}</div>
         </div>
         <div className="selections__selection-button">
-          <button>Bet For</button>
+          <button onClick={this.props.onBetClick}>Bet For</button>
           <button>Bet Against</button>
         </div>
       </div>
     );
-  }
+  };
 
   render() {
     return (
