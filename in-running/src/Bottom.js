@@ -1,5 +1,5 @@
 import React from 'react';
-import broadcastChannel from './broadcastChannel';
+import brokerChannel from './brokerChannel';
 
 import Feed from './FEED';
 import Left from './Left';
@@ -7,20 +7,15 @@ import Left from './Left';
 export default class Bottom extends React.Component {
   state = { screen: 0 };
 
-  componentWillMount() {
-    console.log('Bottom screen');
-  }
-
   handleLeftClick = () => {
-    console.log('left click');
-    broadcastChannel.postMessage({ screen: 3 });
+    brokerChannel.send(JSON.stringify({ screen: 3 }));
   }
 
   handleButtonClick = () => {
     const state = { screen: this.state.screen ? 0 : 1 };
 
     this.setState(state);
-    broadcastChannel.postMessage(state);
+    brokerChannel.send(JSON.stringify(state));
   }
 
   render() {
