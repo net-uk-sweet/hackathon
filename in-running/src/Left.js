@@ -71,19 +71,19 @@ export default class Left extends Component {
 
         <aside className="selections">
           <div className="selections-row">
-            {this.state.runners.slice(0, 2).map(this.renderRunner)}
+            {this.state.runners && this.state.runners.length && this.state.runners.slice(0, 2).map(this.renderRunner)}
           </div>
 
           <div className="selections-row">
-            {this.state.runners.slice(2, 4).map(this.renderRunner)}
+            {this.state.runners && this.state.runners.length && this.state.runners.slice(2, 4).map(this.renderRunner)}
           </div>
 
           <div className="selections-row">
-            {this.state.runners.slice(6, 8).map(this.renderRunner)}
+            {this.state.runners && this.state.runners.length && this.state.runners.slice(6, 8).map(this.renderRunner)}
           </div>
 
           <div className="selections-row">
-            {this.state.runners.slice(10, 11).map(this.renderRunner)}
+            {this.state.runners && this.state.runners.length && this.state.runners.slice(10, 11).map(this.renderRunner)}
           </div>
 
           {!this.state.start && (
