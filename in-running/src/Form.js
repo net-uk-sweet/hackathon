@@ -53,7 +53,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/oisin-murphy?jockeyCode=000000015183" className="jockey-name"><span className="j-span">J: </span>Oisin Murphy</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/mme-pia-brandt?trainerCode=000000012496" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Mme Pia Brandt, France</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/mme-pia-brandt?trainerCode=000000012496" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Mme Pia Brandt, France</a>
             </td>
           </tr>
           <tr>
@@ -103,7 +103,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/donnacha-obrien?jockeyCode=000000015777" className="jockey-name"><span className="j-span">J: </span>Donnacha O'Brien</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/aidan-obrien?trainerCode=000000047734" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Aidan O'Brien, Ireland</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/aidan-obrien?trainerCode=000000047734" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Aidan O'Brien, Ireland</a>
             </td>
           </tr>
           <tr>
@@ -154,7 +154,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/jim-crowley?jockeyCode=000000010899" className="jockey-name"><span className="j-span">J: </span>Jim Crowley</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/ian-williams?trainerCode=000000009512" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Ian Williams</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/ian-williams?trainerCode=000000009512" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Ian Williams</a>
             </td>
           </tr>
           <tr>
@@ -207,7 +207,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/frankie-dettori?jockeyCode=000000000058" className="jockey-name"><span className="j-span">J: </span>Frankie Dettori</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/john-gosden?trainerCode=000000000075" className="trainer-name"><span className="t-span t-racecard-span">T: </span>John Gosden</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/john-gosden?trainerCode=000000000075" className="trainer-name"><span className="t-span t-racecard-span">T: </span>John Gosden</a>
             </td>
           </tr>
           <tr>
@@ -258,7 +258,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/andrea-atzeni?jockeyCode=000000012399" className="jockey-name"><span className="j-span">J: </span>Andrea Atzeni</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/w-p-mullins?trainerCode=000000001564" className="trainer-name"><span className="t-span t-racecard-span">T: </span>W. P. Mullins, Ireland</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/w-p-mullins?trainerCode=000000001564" className="trainer-name"><span className="t-span t-racecard-span">T: </span>W. P. Mullins, Ireland</a>
             </td>
           </tr>
           <tr>
@@ -310,7 +310,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/james-doyle?jockeyCode=000000010112" className="jockey-name"><span className="j-span">J: </span>James Doyle</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/charlie-appleby?trainerCode=000000050960" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Charlie Appleby</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/charlie-appleby?trainerCode=000000050960" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Charlie Appleby</a>
             </td>
           </tr>
           <tr>
@@ -360,7 +360,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/seamie-heffernan?jockeyCode=000000001308" className="jockey-name"><span className="j-span">J: </span>Seamie Heffernan</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/aidan-obrien?trainerCode=000000047734" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Aidan O'Brien, Ireland</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/aidan-obrien?trainerCode=000000047734" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Aidan O'Brien, Ireland</a>
             </td>
           </tr>
           <tr>
@@ -412,7 +412,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/silvestre-de-sousa?jockeyCode=000000010788" className="jockey-name"><span className="j-span">J: </span>Silvestre De Sousa</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/mark-johnston?trainerCode=000000000096" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Mark Johnston</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/mark-johnston?trainerCode=000000000096" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Mark Johnston</a>
             </td>
           </tr>
           <tr>
@@ -463,7 +463,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/ryan-moore?jockeyCode=000000007095" className="jockey-name"><span className="j-span">J: </span>Ryan Moore</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/aidan-obrien?trainerCode=000000047734" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Aidan O'Brien, Ireland</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/aidan-obrien?trainerCode=000000047734" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Aidan O'Brien, Ireland</a>
             </td>
           </tr>
           <tr>
@@ -513,7 +513,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/w-m-lordan?jockeyCode=000000009171" className="jockey-name"><span className="j-span">J: </span>W. M. Lordan</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/joseph-patrick-obrien?trainerCode=000000053788" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Joseph Patrick O'Brien, Ireland</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/joseph-patrick-obrien?trainerCode=000000053788" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Joseph Patrick O'Brien, Ireland</a>
             </td>
           </tr>
           <tr>
@@ -564,7 +564,7 @@ export default () => (
             <td colSpan={2}>
               <a target="_blank" href="/royal-ascot/jockey-career/jamie-spencer?jockeyCode=000000004252" className="jockey-name"><span className="j-span">J: </span>Jamie Spencer</a>
               <br />
-              <a target="_blank" href="/royal-ascot/trainer-career/richard-hannon?trainerCode=000000051401" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Richard Hannon</a>            
+              <a target="_blank" href="/royal-ascot/trainer-career/richard-hannon?trainerCode=000000051401" className="trainer-name"><span className="t-span t-racecard-span">T: </span>Richard Hannon</a>
             </td>
           </tr>
           <tr>

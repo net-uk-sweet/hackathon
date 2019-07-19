@@ -5,7 +5,8 @@ export default class Feed extends Component {
     super();
 
     this.state = {
-      popup: false
+      popup: false,
+      start: false
     };
   }
 
@@ -17,16 +18,18 @@ export default class Feed extends Component {
     const ws = new WebSocket('ws://10.1.58.165:48009');
 
     ws.addEventListener('message', ({ data }) => {
-      console.log(data);
+      if (Array.isArray(data)) {
+        this.setState({ start: true });
+
+        setTimeout(() => {
+          this.setState({ popup: true });
+        }, 8000);
+
+        setTimeout(() => {
+          this.setState({ popup: false });
+        }, 25000);
+      }
     });
-
-    setTimeout(() => {
-      this.setState({ popup: true });
-    }, 8000);
-
-    setTimeout(() => {
-      this.setState({ popup: false });
-    }, 25000);
   }
 
   render() {
@@ -53,6 +56,19 @@ export default class Feed extends Component {
         )}
         <div style={{ position: 'relative' }}>
           <canvas id="video-canvas" style={videoStyle} />
+          {!this.state.start && (
+            <div
+              style={{
+                position: 'absolute',
+                width: '100%',
+                zIndex: 100,
+                top: '50%'
+              }}>
+              <h1 style={{ color: '#fff', width: '100%', textAlign: 'center' }}>
+                Starting soon
+              </h1>
+            </div>
+          )}
           <aside className={`popup-bet ${this.state.popup ? 'active' : ''} `}>
             <div className="selections__selection-body">
               <img src="00000071.png" />
