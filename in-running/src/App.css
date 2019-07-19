@@ -88,6 +88,13 @@ h1 span {
   flex: 1;
   text-align: center;
   line-height: 60px;
+  background: -webkit-linear-gradient(
+    top,
+    #eef3ff 0%,
+    #eef3ff 50%,
+    #dfe6f6 51%,
+    #dfe6f6 100%
+  ); /* Chrome10-25,Safari5.1-6 */
 }
 
 .bets li:first-child {
@@ -95,7 +102,13 @@ h1 span {
 }
 
 .bets li:nth-child(3) {
-  background: #35beff;
+  background: -webkit-linear-gradient(
+    top,
+    #5fd7fe 0%,
+    #5fd7fe 50%,
+    #66c4f7 51%,
+    #66c4f7 100%
+  ); /* Chrome10-25,Safari5.1-6 */
 }
 
 .selections-row {
@@ -137,21 +150,34 @@ h1 span {
 }
 
 .selections__selection-body {
-  height: 80px;
+  padding: 20px 0;
   background: #fff;
   border-right: 2px solid #cfdef5;
   border-left: 2px solid #cfdef5;
   display: flex;
 }
 
+.selections__selection-body div + div {
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
 .selections__selection-body img {
   height: 40px;
+  margin: 0 10px;
 }
 
 .selections__selection-header {
   height: 45px;
   color: #fff;
-  background: #0e2a42;
+  background: -webkit-linear-gradient(
+    top,
+    #3b5267 0%,
+    #3b5267 49%,
+    #194563 50%,
+    #194563 100%
+  ); /* Chrome10-25,Safari5.1-6 */
 }
 
 .selections__selection-header span {
@@ -178,7 +204,7 @@ h1 span {
 
 .progress {
   width: 100%;
-  height: 40px;
+  height: 20px;
   flex: 1;
   border: 1px solid grey;
   margin-bottom: 20px;
@@ -196,4 +222,8 @@ h1 span {
   top: 16px;
   right: 16px;
   z-index: 100;
+}
+
+.full-screen button {
+  margin-left: 0;
 }
