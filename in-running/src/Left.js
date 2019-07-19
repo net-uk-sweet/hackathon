@@ -10,12 +10,12 @@ export default () => {
 
       <aside className="bets">
         <ul>
-          <li>Your Stake:</li>
+          <li>Stake:</li>
           <li>£1</li>
           <li>£2</li>
           <li>£5</li>
           <li>£10</li>
-          <li>Custom Stake</li>
+          <li>Custom</li>
           <li>All In</li>
         </ul>
       </aside>
@@ -35,23 +35,6 @@ export default () => {
               <div>
                 <p>Frankie Dettori</p>
                 <p>John Gosden</p>
-              </div>
-            </div>
-            <div className="selections__selection-button">
-              <button>Bet For</button>
-              <button>Bet Against</button>
-            </div>
-          </div>
-
-          <div className="selections__selection">
-            <div className="selections__selection-header">
-              <span>8</span>DEE EX BEE
-            </div>
-            <div className="selections__selection-body">
-              <img src="https://images.timeform.com/silks/opt/00077033.pngx" />
-              <div>
-                <p>Silvestre De Sousa</p>
-                <p>Mark Johnston</p>
               </div>
             </div>
             <div className="selections__selection-button">
