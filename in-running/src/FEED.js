@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 
 export default class Feed extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      popup: false
+    };
+  }
+
   componentDidMount() {
     const canvas = document.getElementById('video-canvas');
     const url = 'ws://' + document.location.hostname + ':9999/';
